@@ -56,11 +56,7 @@ $(function () {
                     height: "100%",
                     crosshairVisibility: "visible",
                     overviewPlusDetailPaneVisibility: "visible",
-<<<<<<< HEAD
                     overviewPlusDetailPaneBackgroundImageUri: "http://staging.igniteui.local/16-2/images/samples/splitter/world.png",
-=======
-                    overviewPlusDetailPaneBackgroundImageUri: "http://dev.igniteui.local/16-2/images/samples/splitter/world.png",
->>>>>>> 33e2affe828c3a6d046103189a8e30cf4af727fb
                     panModifier: "control",
                     backgroundContent: {
                         type: "openStreet"

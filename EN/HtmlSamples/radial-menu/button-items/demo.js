@@ -32,21 +32,13 @@ $(function() {
                     {
                         name: "button1",
                         header: "Bold",
-<<<<<<< HEAD
                         iconUri: "http://staging.igniteui.local/16-2/images/samples/radial-menu/Bold.png",
-=======
-                        iconUri: "http://dev.igniteui.local/16-2/images/samples/radial-menu/Bold.png",
->>>>>>> 33e2affe828c3a6d046103189a8e30cf4af727fb
                         click: function () { toggleBold(); }
                     },
                     {
                         name: "button2",
                         header: "Italic",
-<<<<<<< HEAD
                         iconUri: "http://staging.igniteui.local/16-2/images/samples/radial-menu/Italic.png",
-=======
-                        iconUri: "http://dev.igniteui.local/16-2/images/samples/radial-menu/Italic.png",
->>>>>>> 33e2affe828c3a6d046103189a8e30cf4af727fb
                         click: function () { toggleItalic(); }
                     },
                 ]

@@ -1,12 +1,7 @@
 $(function () {
 $.ig.loader({
-<<<<<<< HEAD
                 scriptPath: "http://staging.igniteui.local/16-2/IgniteUI/js/",
                 cssPath: "http://staging.igniteui.local/16-2/IgniteUI/css/",
-=======
-                scriptPath: "http://dev.igniteui.local/16-2/IgniteUI/js/",
-                cssPath: "http://dev.igniteui.local/16-2/IgniteUI/css/",
->>>>>>> 33e2affe828c3a6d046103189a8e30cf4af727fb
                 resources:'igGrid,' +
                     'modules/infragistics.documents.core.js,' +
                     'modules/infragistics.excel.js,' +

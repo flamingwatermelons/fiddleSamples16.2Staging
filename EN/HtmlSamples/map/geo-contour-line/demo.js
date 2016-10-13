@@ -3,11 +3,7 @@ $(function () {
                 width: "700px",
                 height: "500px",
                 overviewPlusDetailPaneVisibility: "visible",
-<<<<<<< HEAD
                 overviewPlusDetailPaneBackgroundImageUri: "http://staging.igniteui.local/16-2/images/samples/maps/world.png",
-=======
-                overviewPlusDetailPaneBackgroundImageUri: "http://dev.igniteui.local/16-2/images/samples/maps/world.png",
->>>>>>> 33e2affe828c3a6d046103189a8e30cf4af727fb
                 series: [{
                     type: "geographicContourLine",
                     name: "precipitation",
@@ -23,11 +19,7 @@ $(function () {
                     longitudeMemberPath: "pointX",
                     latitudeMemberPath: "pointY",
                     valueMemberPath: "value",
-<<<<<<< HEAD
                     triangulationDataSource: "http://staging.igniteui.local/16-2/data-files/shapes/nws_precip_2011091820.itf",
-=======
-                    triangulationDataSource: "http://dev.igniteui.local/16-2/data-files/shapes/nws_precip_2011091820.itf",
->>>>>>> 33e2affe828c3a6d046103189a8e30cf4af727fb
                 }],
                 windowRect: {
                     left: 0.31,

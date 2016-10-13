@@ -33,11 +33,7 @@ $(function () {
                         // defining color item 1
                         type: "coloritem",
                         header: "Foreground",
-<<<<<<< HEAD
                         iconUri: "http://staging.igniteui.local/16-2/images/samples/radial-menu/FColor.png",
-=======
-                        iconUri: "http://dev.igniteui.local/16-2/images/samples/radial-menu/FColor.png",
->>>>>>> 33e2affe828c3a6d046103189a8e30cf4af727fb
                         color: "rgba(0,0,0,1)",
                         colorChanged: function (evt) {
                             var colValue = evt.newValue;
@@ -77,11 +73,7 @@ $(function () {
                         // defining color item 2
                         type: "coloritem",
                         header: "Background",
-<<<<<<< HEAD
                         iconUri: "http://staging.igniteui.local/16-2/images/samples/radial-menu/BColor.png",
-=======
-                        iconUri: "http://dev.igniteui.local/16-2/images/samples/radial-menu/BColor.png",
->>>>>>> 33e2affe828c3a6d046103189a8e30cf4af727fb
                         color: "rgba(255,255,255,1)",
                         colorChanged: function (evt) {
                             var colValue = evt.newValue;

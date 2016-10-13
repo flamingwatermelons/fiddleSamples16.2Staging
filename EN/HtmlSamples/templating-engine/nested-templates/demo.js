@@ -1,11 +1,7 @@
 $(function () {
             var i = 0, currentValue, limit,
                 headerTextValues = ["First Name", "Last Name", "Nationality", "Movies"],
-<<<<<<< HEAD
                 imagesRoot = "http://staging.igniteui.local/16-2/images/samples/templating-engine/multiConditionalColTemplate";
-=======
-                imagesRoot = "http://dev.igniteui.local/16-2/images/samples/templating-engine/multiConditionalColTemplate";
->>>>>>> 33e2affe828c3a6d046103189a8e30cf4af727fb
 
             $("#resultGrid").igGrid({
                 dataSource: actors,

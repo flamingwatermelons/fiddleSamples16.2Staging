@@ -1,11 +1,7 @@
 $(function () {
 $('#igUpload1').igUpload({
             mode: 'multiple',
-<<<<<<< HEAD
             progressUrl: 'http://staging.igniteui.local/16-2/IGUploadStatusHandler.ashx',
-=======
-            progressUrl: 'http://dev.igniteui.local/16-2/IGUploadStatusHandler.ashx',
->>>>>>> 33e2affe828c3a6d046103189a8e30cf4af727fb
             maxUploadedFiles: 5,
             maxSimultaneousFilesUploads: 2,
             controlId: 'serverID1'

@@ -1,59 +1,35 @@
 #igRatingGhost .ui-igrating-vote {
-<<<<<<< HEAD
                 background-image: url("http://staging.igniteui.local/16-2/images/samples/rating/ig-rating-ghost.png")!important;
-=======
-                background-image: url("http://dev.igniteui.local/16-2/images/samples/rating/ig-rating-ghost.png")!important;
->>>>>>> 33e2affe828c3a6d046103189a8e30cf4af727fb
                 background-position: -75px 0;
                 background-size: auto;
             }
 
             #igRatingGhost .ui-igrating-voteselected {
-<<<<<<< HEAD
                 background-image: url("http://staging.igniteui.local/16-2/images/samples/rating/ig-rating-ghost.png")!important;
-=======
-                background-image: url("http://dev.igniteui.local/16-2/images/samples/rating/ig-rating-ghost.png")!important;
->>>>>>> 33e2affe828c3a6d046103189a8e30cf4af727fb
                 background-position: 0 0;
                 background-size: auto;
             }
 
             #igRatingGhost .ui-igrating-votehover {
-<<<<<<< HEAD
                 background-image: url("http://staging.igniteui.local/16-2/images/samples/rating/ig-rating-ghost.png")!important;
-=======
-                background-image: url("http://dev.igniteui.local/16-2/images/samples/rating/ig-rating-ghost.png")!important;
->>>>>>> 33e2affe828c3a6d046103189a8e30cf4af727fb
                 background-position: -50px 0;
                 background-size: auto;
             }
 
             #igRatingBasket .ui-igrating-vote {
-<<<<<<< HEAD
                 background-image: url("http://staging.igniteui.local/16-2/images/samples/rating/ig-rating-basket.png")!important;
-=======
-                background-image: url("http://dev.igniteui.local/16-2/images/samples/rating/ig-rating-basket.png")!important;
->>>>>>> 33e2affe828c3a6d046103189a8e30cf4af727fb
                 background-position: -75px 0;
                 background-size: auto;
             }
 
             #igRatingBasket .ui-igrating-voteselected {
-<<<<<<< HEAD
                 background-image: url("http://staging.igniteui.local/16-2/images/samples/rating/ig-rating-basket.png")!important;
-=======
-                background-image: url("http://dev.igniteui.local/16-2/images/samples/rating/ig-rating-basket.png")!important;
->>>>>>> 33e2affe828c3a6d046103189a8e30cf4af727fb
                 background-position: 0 0;
                 background-size: auto;
             }
 
             #igRatingBasket .ui-igrating-votehover {
-<<<<<<< HEAD
                 background-image: url("http://staging.igniteui.local/16-2/images/samples/rating/ig-rating-basket.png")!important;
-=======
-                background-image: url("http://dev.igniteui.local/16-2/images/samples/rating/ig-rating-basket.png")!important;
->>>>>>> 33e2affe828c3a6d046103189a8e30cf4af727fb
                 background-position: -25px 0;
                 background-size: auto;
             }

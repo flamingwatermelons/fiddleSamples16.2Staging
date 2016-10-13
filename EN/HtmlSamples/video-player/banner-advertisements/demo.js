@@ -8,11 +8,7 @@ var alternate = true;
                     'http://dl.infragistics.com/pg/2011-1/web/shared/videoplayer/videos/Infragistics_Presentation_lowRes_1.theora.ogv'
                 ],
                 width: "100%",
-<<<<<<< HEAD
                 posterUrl: 'http://staging.igniteui.local/16-2/images/samples/video-player/ig-pres.png',
-=======
-                posterUrl: 'http://dev.igniteui.local/16-2/images/samples/video-player/ig-pres.png',
->>>>>>> 33e2affe828c3a6d046103189a8e30cf4af727fb
                 fullscreen: false,
                 browserControls: false,
                 autohide: true,
@@ -20,11 +16,7 @@ var alternate = true;
                 autohideDelay: 2000,
                 title: 'Infragistics Presentation',
                 banners: [{
-<<<<<<< HEAD
                     imageUrl: 'http://staging.igniteui.local/16-2/images/samples/video-player/banner.png',
-=======
-                    imageUrl: 'http://dev.igniteui.local/16-2/images/samples/video-player/banner.png',
->>>>>>> 33e2affe828c3a6d046103189a8e30cf4af727fb
                     link: 'http://www.infragistics.com/',
                     times: [5, 20, 60],
                     visible: false,
