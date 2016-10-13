@@ -37,7 +37,11 @@ $(function () {
                         { headerText: "Phone", key: "Phone", dataType: "string" },
                         {
                             headerText: "Country", key: "Country", dataType: "string",
+<<<<<<< HEAD
                             template: "<img width='26' height='15' src='http://staging.igniteui.local/16-2/images/samples/nw/countries/{{>Country}}.gif'></img> <span style='display: table-cell;vertical-align: middle;'>{{>Country}}</span>"
+=======
+                            template: "<img width='26' height='15' src='http://dev.igniteui.local/16-2/images/samples/nw/countries/{{>Country}}.gif'></img> <span style='display: table-cell;vertical-align: middle;'>{{>Country}}</span>"
+>>>>>>> 33e2affe828c3a6d046103189a8e30cf4af727fb
                         },
                         {
                             headerText: "Birth Date", key: "BirthDate", dataType: "date",

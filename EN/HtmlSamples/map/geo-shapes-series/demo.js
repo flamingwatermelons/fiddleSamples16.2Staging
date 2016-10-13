@@ -38,14 +38,23 @@ function ColorPickerByIndex(min, max) {
                 height: "500px",
                 windowRect: { left: 0.1, top: 0.1, height: 0.7, width: 0.7 },
                 overviewPlusDetailPaneVisibility: "visible",
+<<<<<<< HEAD
                 overviewPlusDetailPaneBackgroundImageUri: "http://staging.igniteui.local/16-2/images/samples/maps/world.png",
+=======
+                overviewPlusDetailPaneBackgroundImageUri: "http://dev.igniteui.local/16-2/images/samples/maps/world.png",
+>>>>>>> 33e2affe828c3a6d046103189a8e30cf4af727fb
                 series: [{
                     type: "geographicShape",
                     name: "worldCountries",
                     markerType: "none",
                     shapeMemberPath: "points",
+<<<<<<< HEAD
                     shapeDataSource: 'http://staging.igniteui.local/16-2/data-files/shapes/world_countries_reg.shp',
                     databaseSource: 'http://staging.igniteui.local/16-2/data-files/shapes/world_countries_reg.dbf',
+=======
+                    shapeDataSource: 'http://dev.igniteui.local/16-2/data-files/shapes/world_countries_reg.shp',
+                    databaseSource: 'http://dev.igniteui.local/16-2/data-files/shapes/world_countries_reg.dbf',
+>>>>>>> 33e2affe828c3a6d046103189a8e30cf4af727fb
                     opacity: 0.8,
                     outlineThickness: 1,
                     showTooltip: true,

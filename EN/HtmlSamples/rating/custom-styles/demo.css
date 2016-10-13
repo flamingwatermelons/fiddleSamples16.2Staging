@@ -10,7 +10,11 @@
         .theme1 .ui-igrating-vote {
             width: 20px;
             height: 20px;
+<<<<<<< HEAD
             background-image: url("http://staging.igniteui.local/16-2/images/samples/rating/ig-rating-red.png")!important;
+=======
+            background-image: url("http://dev.igniteui.local/16-2/images/samples/rating/ig-rating-red.png")!important;
+>>>>>>> 33e2affe828c3a6d046103189a8e30cf4af727fb
             background-position: -75px 0;
         }
 
@@ -44,7 +48,11 @@
         .theme2 .ui-igrating-vote {
             width: 20px;
             height: 20px;
+<<<<<<< HEAD
             background-image: url("http://staging.igniteui.local/16-2/images/samples/rating/ig-rating-red.png") !important;
+=======
+            background-image: url("http://dev.igniteui.local/16-2/images/samples/rating/ig-rating-red.png") !important;
+>>>>>>> 33e2affe828c3a6d046103189a8e30cf4af727fb
             background-position: -75px 0;
         }
 
@@ -78,7 +86,11 @@
         .theme3 .ui-igrating-vote {
             width: 20px;
             height: 20px;
+<<<<<<< HEAD
             background-image: url("http://staging.igniteui.local/16-2/images/samples/rating/ig-rating-red.png") !important;
+=======
+            background-image: url("http://dev.igniteui.local/16-2/images/samples/rating/ig-rating-red.png") !important;
+>>>>>>> 33e2affe828c3a6d046103189a8e30cf4af727fb
             background-position: -75px 0;
         }
 
@@ -112,7 +124,11 @@
         .theme4 .ui-igrating-vote {
             width: 20px;
             height: 20px;
+<<<<<<< HEAD
             background-image: url("http://staging.igniteui.local/16-2/images/samples/rating/ig-rating-red.png") !important;
+=======
+            background-image: url("http://dev.igniteui.local/16-2/images/samples/rating/ig-rating-red.png") !important;
+>>>>>>> 33e2affe828c3a6d046103189a8e30cf4af727fb
             background-position: -125px 0;
         }
 
@@ -150,7 +166,11 @@
         .theme5 .ui-igrating-vote {
             width: 20px;
             height: 20px;
+<<<<<<< HEAD
             background-image: url("http://staging.igniteui.local/16-2/images/samples/rating/ig-rating-red.png") !important;
+=======
+            background-image: url("http://dev.igniteui.local/16-2/images/samples/rating/ig-rating-red.png") !important;
+>>>>>>> 33e2affe828c3a6d046103189a8e30cf4af727fb
             background-position: -75px 0;
         }
 

@@ -27,7 +27,11 @@ $(function () {
                     {
                         type: "numericitem",
                         header: "Font Size",
+<<<<<<< HEAD
                         iconUri: "http://staging.igniteui.local/16-2/images/samples/radial-menu/Size.png",
+=======
+                        iconUri: "http://dev.igniteui.local/16-2/images/samples/radial-menu/Size.png",
+>>>>>>> 33e2affe828c3a6d046103189a8e30cf4af727fb
                         value: "8",
                         items:
                         [
@@ -50,7 +54,11 @@ $(function () {
                     {
                         type: "list",
                         header: "Font",
+<<<<<<< HEAD
                         iconUri: "http://staging.igniteui.local/16-2/images/samples/radial-menu/Font.png",
+=======
+                        iconUri: "http://dev.igniteui.local/16-2/images/samples/radial-menu/Font.png",
+>>>>>>> 33e2affe828c3a6d046103189a8e30cf4af727fb
                         items:
                         [
                             {

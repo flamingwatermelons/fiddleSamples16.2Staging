@@ -3,7 +3,11 @@ $(function () {
                 width: "700px",
                 height: "500px",
                 overviewPlusDetailPaneVisibility: "visible",
+<<<<<<< HEAD
                 overviewPlusDetailPaneBackgroundImageUri: "http://staging.igniteui.local/16-2/images/samples/maps/world.png",
+=======
+                overviewPlusDetailPaneBackgroundImageUri: "http://dev.igniteui.local/16-2/images/samples/maps/world.png",
+>>>>>>> 33e2affe828c3a6d046103189a8e30cf4af727fb
                 windowRect: { left: 0.4, top: 0.2, height: 0.6, width: 0.6 },
                 backgroundContent: {
                     type: "openStreet"

@@ -1,5 +1,6 @@
 $(function () {
 var northwindEmployees = [
+<<<<<<< HEAD
             { "ID": 1, "Name": "Davolio, Nancy", "Title": "Sales Representative", "ImageUrl": "http://staging.igniteui.local/16-2/images/samples/nw/employees/1.png", "Phone": "(206) 555-9857", "PhoneUrl": "tel:(206) 555-9857", "BirthDate": "\/Date(480808800000)\/", "HireDate": "\/Date(1224795600000)\/", "Country": "USA", "Languages": [{ name: "English" }, { name: "Russian" }] },
             { "ID": 2, "Name": "Fuller, Andrew", "Title": "Vice President, Sales", "ImageUrl": "http://staging.igniteui.local/16-2/images/samples/nw/employees/2.png", "Phone": "(206) 555-9482", "PhoneUrl": "tel:(206) 555-9482", "BirthDate": "\/Date(433458000000)\/", "HireDate": "\/Date(1269640800000)\/", "Country": "USA", "Languages": [{ name: "English" }, { name: "German" }] },
             { "ID": 3, "Name": "Leverling, Janet", "Title": "Sales Representative", "ImageUrl": "http://staging.igniteui.local/16-2/images/samples/nw/employees/3.png", "Phone": "(206) 555-3412", "PhoneUrl": "tel:(206) 555-3412", "BirthDate": "\/Date(268088400000)\/", "HireDate": "\/Date(1318453200000)\/", "Country": "USA", "Languages": [{ name: "English" }] },
@@ -14,6 +15,22 @@ var northwindEmployees = [
         $.ig.loader({
             scriptPath: "http://staging.igniteui.local/16-2/IgniteUI/js/",
             cssPath: "http://staging.igniteui.local/16-2/IgniteUI/css/",
+=======
+            { "ID": 1, "Name": "Davolio, Nancy", "Title": "Sales Representative", "ImageUrl": "http://dev.igniteui.local/16-2/images/samples/nw/employees/1.png", "Phone": "(206) 555-9857", "PhoneUrl": "tel:(206) 555-9857", "BirthDate": "\/Date(480808800000)\/", "HireDate": "\/Date(1224795600000)\/", "Country": "USA", "Languages": [{ name: "English" }, { name: "Russian" }] },
+            { "ID": 2, "Name": "Fuller, Andrew", "Title": "Vice President, Sales", "ImageUrl": "http://dev.igniteui.local/16-2/images/samples/nw/employees/2.png", "Phone": "(206) 555-9482", "PhoneUrl": "tel:(206) 555-9482", "BirthDate": "\/Date(433458000000)\/", "HireDate": "\/Date(1269640800000)\/", "Country": "USA", "Languages": [{ name: "English" }, { name: "German" }] },
+            { "ID": 3, "Name": "Leverling, Janet", "Title": "Sales Representative", "ImageUrl": "http://dev.igniteui.local/16-2/images/samples/nw/employees/3.png", "Phone": "(206) 555-3412", "PhoneUrl": "tel:(206) 555-3412", "BirthDate": "\/Date(268088400000)\/", "HireDate": "\/Date(1318453200000)\/", "Country": "USA", "Languages": [{ name: "English" }] },
+            { "ID": 4, "Name": "Peacock, Margaret", "Title": "Sales Representative", "ImageUrl": "http://dev.igniteui.local/16-2/images/samples/nw/employees/4.png", "Phone": "(206) 555-8122", "PhoneUrl": "tel:(206) 555-8122", "BirthDate": "\/Date(377388000000)\/", "HireDate": "\/Date(1171404000000)\/", "Country": "USA", "Languages": [{ name: "English" }, { name: "Spanish" }] },
+            { "ID": 5, "Name": "Buchanan, Steven", "Title": "Sales Manager", "ImageUrl": "http://dev.igniteui.local/16-2/images/samples/nw/employees/5.png", "Phone": "(71) 555-4848", "PhoneUrl": "tel:(71) 555-4848", "BirthDate": "\/Date(-110084400000)\/", "HireDate": "\/Date(955573200000)\/", "Country": "UK", "Languages": [{ name: "English" }, { name: "Italian" }] },
+            { "ID": 6, "Name": "Suyama, Michael", "Title": "Sales Representative", "ImageUrl": "http://dev.igniteui.local/16-2/images/samples/nw/employees/6.png", "Phone": "(71) 555-7773", "PhoneUrl": "tel:(71) 555-7773", "BirthDate": "\/Date(44744400000)\/", "HireDate": "\/Date(1125090000000)\/", "Country": "UK", "Languages": [{ name: "English" }, { name: "Portuguese" }] },
+            { "ID": 7, "Name": "King, Robert", "Title": "Sales Representative", "ImageUrl": "http://dev.igniteui.local/16-2/images/samples/nw/employees/7.png", "Phone": "(71) 555-5598", "PhoneUrl": "tel:(71) 555-5598", "BirthDate": "\/Date(-213760800000)\/", "HireDate": "\/Date(907794000000)\/", "Country": "UK", "Languages": [{ name: "English" }, { name: "French" }, { name: "Spanish" }] },
+            { "ID": 8, "Name": "Callahan, Laura", "Title": "Inside Sales Coordinator", "ImageUrl": "http://dev.igniteui.local/16-2/images/samples/nw/employees/8.png", "Phone": "(206) 555-1189", "PhoneUrl": "tel:(206) 555-1189", "BirthDate": "\/Date(318828800000)\/", "HireDate": "\/Date(962825600000)\/", "Country": "USA", "Languages": [{ name: "English" }, { name: "Mandarin" }] },
+            { "ID": 9, "Name": "Dodsworth, Anne", "Title": "Sales Representative", "ImageUrl": "http://dev.igniteui.local/16-2/images/samples/nw/employees/9.png", "Phone": "(71) 555-4444", "PhoneUrl": "tel:(71) 555-4444", "BirthDate": "\/Date(444952800000)\/", "HireDate": "\/Date(1246395600000)\/", "Country": "UK", "Languages": [{ name: "English" }, { name: "Japanese" }] }
+        ]
+
+        $.ig.loader({
+            scriptPath: "http://dev.igniteui.local/16-2/IgniteUI/js/",
+            cssPath: "http://dev.igniteui.local/16-2/IgniteUI/css/",
+>>>>>>> 33e2affe828c3a6d046103189a8e30cf4af727fb
             resources: "igGrid.Updating,igUpload"
         });
         $.ig.loader(function () {
