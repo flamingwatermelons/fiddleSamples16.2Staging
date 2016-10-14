@@ -30,7 +30,7 @@ var apiViewer = new $.ig.apiViewer();
 	        opts["responseTotalRecCountKey"] = "TotalRecordsCount";
 
 	        opts["autoGenerateColumns"] = false;
-	        opts["dataSource"] = "/aspnet/grid/GridPerformance";
+	        opts["dataSource"] = "http://www.igniteui.com/aspnet/grid/GridPerfomance";
 
 	        if (virt !== "none") {
 	            opts["rowVirtualization"] = true;
