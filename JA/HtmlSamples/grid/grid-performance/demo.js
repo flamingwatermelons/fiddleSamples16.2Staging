@@ -30,7 +30,7 @@ var apiViewer = new $.ig.apiViewer();
 	        opts["responseTotalRecCountKey"] = "TotalRecordsCount";
 
 	        opts["autoGenerateColumns"] = false;
-	        opts["dataSource"] = "http://www.igniteui.com/aspnet/grid/GridPerfomance";
+	        opts["dataSource"] = "http://www.igniteui.com/api/gridperformance";
 
 	        if (virt !== "none") {
 	            opts["rowVirtualization"] = true;
@@ -90,7 +90,7 @@ var apiViewer = new $.ig.apiViewer();
 	            opts["responseTotalRecCountKey"] = "TotalRecordsCount";
 
 	            opts["autoGenerateColumns"] = false;
-	            opts["dataSource"] = "/aspnet/grid/GridPerformance";
+	            opts["dataSource"] = "/api/gridperformance";
 
 	            if (virt !== "none") {
 	                opts["rowVirtualization"] = true;
@@ -99,7 +99,7 @@ var apiViewer = new $.ig.apiViewer();
 	            opts["width"] = "100%";
 	            opts["height"] = "500px";
 	            if (paging) {
-	                features.push({ name: "Paging", type: "remote", pageIndexUrlKey: "pageIndex", pageSizeUrlKey: "pageSize", recordCountKey: "TotalRecordsCount" });
+	                features.push({ name: "Paging", type: "remote", pageIndexUrlKey: "page", pageSizeUrlKey: "pageSize", recordCountKey: "TotalRecordsCount" });
 	            }
 	            if (filtering) {
 	                features.push({ name: "Filtering", type: "remote", filterExprUrlKey: "filter" });
