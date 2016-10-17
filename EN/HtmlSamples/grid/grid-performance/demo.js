@@ -26,11 +26,11 @@ var apiViewer = new $.ig.apiViewer();
 
 	        cols = columns.slice(0, colCount);
 	        opts["columns"] = cols;
-	        opts["responseDataKey"] = "Records";
-	        opts["responseTotalRecCountKey"] = "TotalRecordsCount";
+	        opts["responseDataKey"] = "d.results.Records";
+	        opts["responseTotalRecCountKey"] = "d.results.TotalRecordsCount";
 
 	        opts["autoGenerateColumns"] = false;
-	        opts["dataSource"] = "http://www.igniteui.com/api/gridperformance";
+	        opts["dataSource"] = "http://www.igniteui.com/api/gridperformance?callback=?";
 
 	        if (virt !== "none") {
 	            opts["rowVirtualization"] = true;
@@ -39,7 +39,7 @@ var apiViewer = new $.ig.apiViewer();
 	        opts["width"] = "100%";
 	        opts["height"] = "500px";
 	        if (paging) {
-	            features.push({ name: "Paging", type: "remote", pageIndexUrlKey: "pageIndex", pageSizeUrlKey: "pageSize", recordCountKey: "TotalRecordsCount" });
+	        	features.push({ name: "Paging", type: "remote", pageIndexUrlKey: "pageIndex", pageSizeUrlKey: "pageSize", recordCountKey: "d.results.TotalRecordsCount" });
 	        }
 	        if (filtering) {
 	            features.push({ name: "Filtering", type: "remote", filterExprUrlKey: "filter" });
@@ -86,11 +86,11 @@ var apiViewer = new $.ig.apiViewer();
 
 	            cols = columns.slice(0, colCount);
 	            opts["columns"] = cols;
-	            opts["responseDataKey"] = "Records";
-	            opts["responseTotalRecCountKey"] = "TotalRecordsCount";
+	            opts["responseDataKey"] = "d.results.Records";
+	            opts["responseTotalRecCountKey"] = "d.results.TotalRecordsCount";
 
 	            opts["autoGenerateColumns"] = false;
-	            opts["dataSource"] = "/api/gridperformance";
+	            opts["dataSource"] = "/api/gridperformance?callback=?";
 
 	            if (virt !== "none") {
 	                opts["rowVirtualization"] = true;
@@ -99,7 +99,7 @@ var apiViewer = new $.ig.apiViewer();
 	            opts["width"] = "100%";
 	            opts["height"] = "500px";
 	            if (paging) {
-	                features.push({ name: "Paging", type: "remote", pageIndexUrlKey: "page", pageSizeUrlKey: "pageSize", recordCountKey: "TotalRecordsCount" });
+	            	features.push({ name: "Paging", type: "remote", pageIndexUrlKey: "page", pageSizeUrlKey: "pageSize", recordCountKey: "d.results.TotalRecordsCount" });
 	            }
 	            if (filtering) {
 	                features.push({ name: "Filtering", type: "remote", filterExprUrlKey: "filter" });
