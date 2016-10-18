@@ -50,7 +50,7 @@ $(function () {
         });
 
         function ExportImage() {
-            var img = $('#chart').igDataChart("exportImage", 854, 480);
+            var img = $('#chart').igDataChart("exportImage", $('#chart').width(), $('#chart').height());
 
 			// atob to base64_decode the data-URI
 			var image_data = atob(img.src.split(',')[1]);
