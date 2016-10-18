@@ -1,52 +1,6 @@
 $(function () {
 var apiViewer = new $.ig.apiViewer();
-	    function setUpOptions(virt, paging, filtering, colCount) {
-	        var opts = {}, columns = [], features = [], cols;
-                      
-	        columns.push({headerText: "ID", key: "ID", dataType: "number", width: "200px"});
-	        columns.push({headerText: "First Name", key: "FirstName", dataType: "string", width: "200px"});
-	        columns.push({headerText: "Last Name", key: "LastName", dataType: "string", width: "200px"});
-	        columns.push({headerText: "Company", key: "Company", dataType: "string", width: "200px"});
-	        columns.push({headerText: "Email", key: "Email", dataType: "string", width: "200px"});
-	        columns.push({headerText: "Position", key: "Position", dataType: "string", width: "200px"});
-	        columns.push({headerText: "Age", key: "Age", dataType: "number", width: "200px"});
-	        columns.push({headerText: "Address", key: "Address", dataType: "string", width: "200px"});
-	        columns.push({headerText: "Phone", key: "Phone", dataType: "string", width: "200px"});
-	        columns.push({headerText: "Picture", key: "Picture", dataType: "string", width: "200px"});
-	        columns.push({headerText: "Is Active", key: "IsActive", dataType: "bool", width: "200px"});
-	        columns.push({headerText: "Balance", key: "Balance", dataType: "string", width: "200px"});
-	        columns.push({headerText: "Eye Color", key: "EyeColor", dataType: "string", width: "200px"});
-	        columns.push({headerText: "Registered", key: "Registered", dataType: "bool", width: "200px"});
-	        columns.push({headerText: "Latitude", key: "Latitude", dataType: "number", width: "200px"});
-	        columns.push({headerText: "Longitude", key: "Longitude", dataType: "number", width: "200px"});
-	        columns.push({headerText: "Tags", key: "Tags", dataType: "string", width: "200px"});
-	        columns.push({headerText: "Greeting", key: "Greeting", dataType: "string", width: "200px"});
-	        columns.push({headerText: "GUID", key: "GUID", dataType: "string", width: "200px"});
-	        columns.push({ headerText: "Index", key: "Index", dataType: "number", width: "200px" });
 
-	        cols = columns.slice(0, colCount);
-	        opts["columns"] = cols;
-	        opts["responseDataKey"] = "d.results.Records";
-	        opts["responseTotalRecCountKey"] = "d.results.TotalRecordsCount";
-
-	        opts["autoGenerateColumns"] = false;
-	        opts["dataSource"] = "http://www.igniteui.com/api/gridperformance?callback=?";
-
-	        if (virt !== "none") {
-	            opts["rowVirtualization"] = true;
-	            opts["virtualizationMode"] = virt;
-	        };
-	        opts["width"] = "100%";
-	        opts["height"] = "500px";
-	        if (paging) {
-	        	features.push({ name: "Paging", type: "remote", pageIndexUrlKey: "pageIndex", pageSizeUrlKey: "pageSize", recordCountKey: "d.results.TotalRecordsCount" });
-	        }
-	        if (filtering) {
-	            features.push({ name: "Filtering", type: "remote", filterExprUrlKey: "filter" });
-	        }
-	        opts["features"] = features;
-	        return opts;
-	    }
 	    $(function () {
 	        var dataBind = true,
 				startRender,
@@ -90,7 +44,7 @@ var apiViewer = new $.ig.apiViewer();
 	            opts["responseTotalRecCountKey"] = "d.results.TotalRecordsCount";
 
 	            opts["autoGenerateColumns"] = false;
-	            opts["dataSource"] = "/api/gridperformance?callback=?";
+	            opts["dataSource"] = "http://www.igniteui.com/api/gridperformance?callback=?";
 
 	            if (virt !== "none") {
 	                opts["rowVirtualization"] = true;
