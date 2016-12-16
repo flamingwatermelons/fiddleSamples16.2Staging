@@ -64,7 +64,7 @@
         .igscroll-htrack {
             background-color: #dfdfdf;
             border-radius: 30px;
-            height: 12px !important;
+            height: 4px !important;
             box-shadow: inset 0px 0px 5px #888888;
         }
 
@@ -73,6 +73,15 @@
             border: 1px solid #ccc;
             box-shadow: inset 0px 0px 5px #888888;
             background-color: #db5858;
+        }
+
+        
+        .igscroll-hdrag-thin {
+            left: -1px;
+        }
+
+        .igscroll-hdrag-big {
+            left: -3px;
         }
 
         .igscroll-hdrag:hover {
