@@ -153,7 +153,8 @@ $(function () {
                         }],
                         horizontalZoomable: true,
                         verticalZoomable: true,
-                        windowResponse: "immediate"
+                        windowResponse: "immediate",
+                        title: "$$(RevenuePerUnitsSold)"
                     });
                 };
 

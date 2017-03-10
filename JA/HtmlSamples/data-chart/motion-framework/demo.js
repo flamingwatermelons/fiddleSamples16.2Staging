@@ -196,7 +196,7 @@ $(function () {
                 }],
                 series: [{
                     name: "series1",
-                    title: "テスト系列",
+                    title: "テスト シリーズ",
                     type: "radialPie",
                     angleAxis: "angleAxis",
                     valueAxis: "radiusAxis",
@@ -358,7 +358,7 @@ $(function () {
                     }]);
                     $("#chart").igDataChart("option", "series", [{
                         name: "series1",
-                        title: "テスト系列",
+                        title: "テスト シリーズ",
                         type: "radialPie",
                         angleAxis: "angleAxis",
                         valueAxis: "radiusAxis",
