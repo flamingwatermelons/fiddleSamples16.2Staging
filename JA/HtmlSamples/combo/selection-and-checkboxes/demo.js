@@ -14,32 +14,35 @@ var colors = [
         $(function () {
 
             $("#singleSelectCombo").igCombo({
-                width: "280px",
+                width: 300,
                 dataSource: colors,
                 textKey: "Name",
                 valueKey: "Name",
-                dropDownOnFocus: true
+                dropDownOnFocus: true,
+                dropDownOrientation: "bottom"
             });
 
             $("#multiSelectCombo").igCombo({
-                width: "280px",
+                width: 300,
                 dataSource: colors,
                 textKey: "Name",
                 valueKey: "Name",
                 multiSelection: {
                     enabled: true
-                }
+                },
+                dropDownOrientation: "bottom"
             });
 
             $("#checkboxSelectCombo").igCombo({
-                width: "280px",
+                width: 300,
                 dataSource: colors,
                 textKey: "Name",
                 valueKey: "Name",
                 multiSelection: {
                     enabled: true,
                     showCheckboxes: true
-                }
+                },
+                dropDownOrientation: "bottom"
             });
 
         });

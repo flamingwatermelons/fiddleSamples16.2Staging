@@ -18,7 +18,8 @@ var northwindProductsEN = [
                 dataSource: northwindProducts,
                 filteringType: "local",
                 autoComplete: true,
-                placeHolder: "Focus me."
+                placeHolder: "Focus me.",
+                dropDownOrientation: "bottom"
             });
 
             $("#filterContainsCombo").igCombo({
@@ -29,7 +30,8 @@ var northwindProductsEN = [
                 filteringType: "local",
                 filteringCondition: "contains",
                 highlightMatchesMode: "contains",
-                placeHolder: "Focus me."
+                placeHolder: "Focus me.",
+                dropDownOrientation: "bottom"
             });
 
             $("#caseSensitiveCombo").igCombo({
@@ -41,7 +43,8 @@ var northwindProductsEN = [
                 autoSelectFirstMatch: true,
                 caseSensitive: true,
                 autoComplete: true,
-                placeHolder: "Focus me."
+                placeHolder: "Focus me.",
+                dropDownOrientation: "bottom"
             });
 
 
