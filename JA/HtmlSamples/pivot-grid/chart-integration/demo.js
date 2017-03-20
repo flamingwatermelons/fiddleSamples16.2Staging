@@ -137,7 +137,7 @@ $(function () {
                         $chart.igDataChart("destroy");
                     }
                     $chart.igDataChart({
-                        width: "700px",
+                        width: "80%",
                         height: "500px",
                         dataSource: ds,
                         series: series,
@@ -154,7 +154,7 @@ $(function () {
                         horizontalZoomable: true,
                         verticalZoomable: true,
                         windowResponse: "immediate",
-                        title: "$$(RevenuePerUnitsSold)"
+                        title: "Revenue per Units Sold"
                     });
                 };
 
