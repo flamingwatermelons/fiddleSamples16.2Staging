@@ -13,13 +13,13 @@ $.support.cors = true;
 
             $('#dataSelector').igPivotDataSelector({
                 dataSource: dataSource,
-                height: "650px",
+                height: "600px",
                 width: "240px"
             });
             $("#pivotGrid").igPivotGrid({
                 dataSource: dataSource,
-                height: "650px",
-                width: "670px"
+                height: "600px",
+                width: "570px"
             });
         });
 });

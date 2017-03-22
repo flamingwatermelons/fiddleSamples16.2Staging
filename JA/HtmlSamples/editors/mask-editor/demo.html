@@ -7,41 +7,18 @@
 <link href="http://staging.igniteui.local/16-2/IgniteUI/css/structure/infragistics.css" rel="stylesheet"></link>
 <script src="http://staging.igniteui.local/16-2/IgniteUI/js/i18n/infragistics-ja.js"></script>
 
-<div id="container" class="clearfix">
-        <div id="igMaskEditorsContainer">
-            <form id="form" action="javascript:console.log('送信');">
-                <div class="group-fields">
-                    <label>RAW テキスト:</label>
-                    <div id="msk1"></div>
-                </div>
-                <div class="group-fields">
-                    <label>必要なプロンプトを持つ RAW テキスト:</label>
-                    <div id="msk2"></div>
-                </div>
-                <div class="group-fields">
-                    <label>すべてのプロンプトを持つ RAW テキスト:</label>
-                    <div id="msk3"></div>
-                </div>
-                <div class="group-fields">
-                    <label>リテラルを持つ RAW テキスト:</label>
-                    <div id="msk4"></div>
-                </div>
-                <div class="group-fields">
-                    <label>必要なプロンプトおよびリテラルを持つ RAW テキスト:</label>
-                    <div id="msk5"></div>
-                </div>
-                <div class="group-fields">
-                    <label>すべてのテキスト (デフォルト値):</label>
-                    <div id="msk6"></div>
-                </div>
-                <input type="submit" id="submitBtn" value="送信"></input>
-            </form>
+<h3>Ultimate 製品の登録</h3>
+    <form>
+        <div class="group-fields">
+            <label for="serialNumber">製品番号</label>
+            <input id="serialNumber"></input>
         </div>
-
-        <div id="ValuesContainer">
-            <h4>送信した値:</h4>
-            <div class="divHeight">
-                <p class="pStyle" id="results">
-            </div>
+        <div class="group-fields">
+            <label for="zipCode">郵便番号</label>
+            <input id="zipCode"></input>
         </div>
-    </div>
+        <div class="group-fields">
+            <label for="phone">電話番号</label>
+            <input id="phone"></input>
+        </div>
+    </form>
