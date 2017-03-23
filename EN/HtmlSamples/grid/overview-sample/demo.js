@@ -7,7 +7,7 @@ $(function () {
                 width: '100%',
                 columns: [
                     { headerText: "Product ID", key: "ProductID", dataType: "number", width: "15%", hidden: true },
-                    { headerText: "Image", key: "ImageUrl", dataType: "string", width: "15%", template: "<img src=\"${ImageUrl}\"/>" },
+                    { headerText: "Image", key: "ImageUrl", dataType: "string", width: "15%", template: "<img style=\"height:50px;\" src=\"${ImageUrl}\"/>" },
                     { headerText: "Product Name", key: "ProductName", dataType: "string", width: "25%" },
                     { headerText: "Category", key: "CategoryName", dataType: "string", width: "25%" },
                     { headerText: "Units In Stock", key: "InStock", dataType: "number", width: "35%" }
