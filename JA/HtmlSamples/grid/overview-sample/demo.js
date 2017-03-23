@@ -7,7 +7,7 @@ $(function () {
                 width: '100%',
                 columns: [
                     { headerText: "製品 ID", key: "ProductID", dataType: "number", width: "15%", hidden: true },
-                    { headerText: "画像", key: "ImageUrl", dataType: "string", width: "15%", template: "<img src=\"${ImageUrl}\"/>" },
+                    { headerText: "画像", key: "ImageUrl", dataType: "string", width: "15%", template: "<img style=\"height:50px;\" src=\"${ImageUrl}\"/>" },
                     { headerText: "製品名", key: "ProductName", dataType: "string", width: "25%" },
                     { headerText: "カテゴリ", key: "CategoryName", dataType: "string", width: "25%" },
                     { headerText: "在庫数", key: "InStock", dataType: "number", width: "35%" }
