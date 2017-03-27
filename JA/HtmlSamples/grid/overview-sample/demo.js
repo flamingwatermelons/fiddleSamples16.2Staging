@@ -1,6 +1,6 @@
 $(function () {
             for (var i = 0; i < northwindProducts.length; i++) {
-                northwindProducts[i].ImageUrl = "http://lorempixel.com/50/50/food/" + (i % 10) + "/";
+                northwindProducts[i].ImageUrl = "https://lorempixel.com/50/50/food/" + (i % 10) + "/";
             }
             $("#grid").igGrid({
                 primaryKey: "ProductID",

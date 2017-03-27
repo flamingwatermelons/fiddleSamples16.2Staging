@@ -44,7 +44,7 @@ var apiViewer = new $.ig.apiViewer();
 	            opts["responseTotalRecCountKey"] = "d.results.TotalRecordsCount";
 
 	            opts["autoGenerateColumns"] = false;
-	            opts["dataSource"] = "http://www.igniteui.com/api/gridperformance?callback=?";
+	            opts["dataSource"] = "https://www.igniteui.com/api/gridperformance?callback=?";
 
 	            if (virt !== "none") {
 	                opts["rowVirtualization"] = true;
