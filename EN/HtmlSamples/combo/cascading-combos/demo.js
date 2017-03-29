@@ -78,7 +78,7 @@ var dsCountry, dsCascTowns, dsCountryCascading,
             $("#comboCountry").igCombo({
                 textKey: "txtCountry",
                 valueKey: "valCountry",
-                placeHolder: "select country..",
+                placeHolder: "select country...",
                 dataSource: dsCountry,
                 selectionChanged: function (evt, ui) {
                     var filteredCascDistrict = [];
@@ -114,7 +114,7 @@ var dsCountry, dsCascTowns, dsCountryCascading,
             $("#comboDistrict").igCombo({
                 valueKey: "valDistrict",
                 textKey: "txtDistrict",
-                placeHolder: "select district..",
+                placeHolder: "select district...",
                 dataSource: [],
                 disabled: true,
                 selectionChanged: function (evt, ui) {
@@ -141,7 +141,7 @@ var dsCountry, dsCascTowns, dsCountryCascading,
             $("#comboTown").igCombo({
                 valueKey: "valTown",
                 textKey: "textTown",
-                placeHolder: "select town..",
+                placeHolder: "select town...",
                 disabled: true
             });
         });

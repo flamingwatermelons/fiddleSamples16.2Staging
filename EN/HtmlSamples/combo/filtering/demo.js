@@ -18,7 +18,7 @@ var northwindProductsEN = [
                 dataSource: northwindProducts,
                 filteringType: "local",
                 autoComplete: true,
-                placeHolder: "Focus me.",
+                placeHolder: "Focus me...",
                 dropDownOrientation: "bottom"
             });
 
@@ -30,7 +30,7 @@ var northwindProductsEN = [
                 filteringType: "local",
                 filteringCondition: "contains",
                 highlightMatchesMode: "contains",
-                placeHolder: "Focus me.",
+                placeHolder: "Focus me...",
                 dropDownOrientation: "bottom"
             });
 
@@ -43,7 +43,7 @@ var northwindProductsEN = [
                 autoSelectFirstMatch: true,
                 caseSensitive: true,
                 autoComplete: true,
-                placeHolder: "Focus me.",
+                placeHolder: "Focus me...",
                 dropDownOrientation: "bottom"
             });
 
