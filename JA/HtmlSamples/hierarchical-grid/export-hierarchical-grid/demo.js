@@ -5,9 +5,9 @@ $.ig.loader({
             resources: 'igHierarchicalGrid,' +
                 'igGridExcelExporter'
         });
-			
-        $.ig.loader(function() {				
-					
+
+        $.ig.loader(function() {
+
             $("#hierarchicalGrid").igHierarchicalGrid({
                 width: "100%",
                 autoCommit: true,
@@ -50,7 +50,7 @@ $.ig.loader({
             });
 
             $("#exportButton").igButton({ labelText: "エクスポート" });
-					
+
             $("#exportButton").on("igbuttonclick", function () {
                 $.ig.GridExcelExporter.exportGrid($("#hierarchicalGrid"), {
                     dataExportMode: $("#dataExportMode").val()
