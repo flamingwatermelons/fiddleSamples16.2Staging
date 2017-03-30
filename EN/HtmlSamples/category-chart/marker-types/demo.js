@@ -24,6 +24,7 @@ var data = [
 
             $("#markerTypePicker").igCombo({
                 dataSource: comboData,
+                mode: "dropdown",
                 valueKey: "MarkerType",
                 textKey: "MarkerType",
                 placeHolder: "Select Marker type",

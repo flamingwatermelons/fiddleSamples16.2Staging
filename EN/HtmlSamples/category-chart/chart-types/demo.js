@@ -26,6 +26,7 @@ var data = [
 
             $("#chartTypePicker").igCombo({
                 dataSource: comboData,
+                mode: "dropdown",
                 valueKey: "ChartType",
                 textKey: "ChartType",
                 placeHolder: "Select Chart type",
