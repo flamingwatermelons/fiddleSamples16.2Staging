@@ -2,15 +2,9 @@ $(function () {
 $.ig.loader({
 			scriptPath: "http://staging.igniteui.local/16-2/IgniteUI/js/",
 			cssPath: "http://staging.igniteui.local/16-2/IgniteUI/css/",
-			resources: "igSpreadsheet,igExcel.LoadSaveXlsx,igEditors"
-		});
-		
-		$(function () {
-
-			$(function () {
+			resources: "igSpreadsheet,igExcel.LoadSaveXlsx,igEditors",
+			ready: function () {
 				$("#tabs").tabs();
-			});
-
 				$("#spreadsheet").igSpreadsheet({
 					height: "600",
 					width: "100%"
@@ -142,5 +136,6 @@ $.ig.loader({
 				$("#underline").click(function () {
 					$('#spreadsheet').igSpreadsheet('executeAction', "toggleUnderline");
 				});
-			});
+			}
+		});
 });
