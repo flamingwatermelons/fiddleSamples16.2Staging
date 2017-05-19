@@ -1,4 +1,12 @@
 $(function () {
+$.ig.loader({
+            scriptPath: "http://staging.igniteui.local/16-2/IgniteUI/js/",
+            cssPath: "http://staging.igniteui.local/16-2/IgniteUI/css/",
+            resources: 'igGrid,' +
+                'igExcel'
+        });
+
+        $.ig.loader(function () {
             $("#input").on("change", function () {
                 var excelFile,
                     fileReader = new FileReader();
@@ -75,3 +83,4 @@ $(function () {
                 width: "100%"
             });
         }
+});

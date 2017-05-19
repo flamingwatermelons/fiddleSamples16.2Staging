@@ -1,12 +1,8 @@
 $(function () {
 $.ig.loader({
             scriptPath: "http://staging.igniteui.local/16-2/IgniteUI/js/",
-            cssPath: "http://staging.igniteui.local/16-2/IgniteUI/css/",
-            resources: 'modules/infragistics.util.js,' +
-                       'modules/infragistics.documents.core.js,' +
-                       'modules/infragistics.excel.js'
+            resources: 'igExcel'
         });
-     
 
         function createFormattingWorkbook() {
 
