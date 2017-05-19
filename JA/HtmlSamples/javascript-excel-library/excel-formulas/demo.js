@@ -1,5 +1,14 @@
 $(function () {
-function createFormulasWorkbook() {
+$.ig.loader({
+            scriptPath: "http://staging.igniteui.local/16-2/IgniteUI/js/",
+            cssPath: "http://staging.igniteui.local/16-2/IgniteUI/css/",
+            resources: 'modules/infragistics.util.js,' +
+                       'modules/infragistics.documents.core.js,' +
+                       'modules/infragistics.excel.js'
+        });
+     
+
+        function createFormulasWorkbook() {
 
             var workbook = new $.ig.excel.Workbook($.ig.excel.WorkbookFormat.excel2007);
             var sheet = workbook.worksheets().add('Sheet1');
