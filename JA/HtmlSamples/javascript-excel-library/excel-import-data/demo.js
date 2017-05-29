@@ -3,7 +3,7 @@ $.ig.loader({
             scriptPath: "http://staging.igniteui.local/16-2/IgniteUI/js/",
             cssPath: "http://staging.igniteui.local/16-2/IgniteUI/css/",
             resources: 'igGrid,' +
-                'igExcel'
+                'igExcel,' + 'LoadSaveXlsx'
         });
 
         $.ig.loader(function () {
