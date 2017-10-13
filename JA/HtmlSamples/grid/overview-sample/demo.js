@@ -3,8 +3,7 @@ $(function () {
                 northwindProducts[i].ImageUrl = "https://lorempixel.com/50/50/food/" + (i % 10) + "/";
             }
             $("#grid").igGrid({
-            	primaryKey: "ProductID",
-            	caption : "<span> <img src=\"//www.infragistics.com/media/441501/horz_logo.png\" alt=\"Infragistics\"></span>",
+                primaryKey: "ProductID",
                 width: '100%',
                 columns: [
                     { headerText: "製品 ID", key: "ProductID", dataType: "number", width: "15%", hidden: true },

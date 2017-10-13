@@ -12,11 +12,11 @@ h3 {
             margin-right: 5px;
             float: left;
         }
-        .submit-form {
-            float: left;
-            width: 400px;
-            min-width: 400px;
-        }
+		form {
+			float: left;
+			width: 500px;
+			min-width: 500px;
+		}
 		.submit-container
         {
             top: 0px;
